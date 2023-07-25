@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 style="color: aliceblue;margin-left: 4cm;">Guess The Number~~>Get Out Of Matrix..✨</h1>
+  <div id="startButton">
+    <button onclick="startGame()" style="color: rgb(255, 255, 255);margin-left: 9cm;margin-top: 0.3cm;height: 1cm;width: 3cm;border-radius: 10%;background: linear-gradient(to right, #ef32d9, #89fffd);border-color: #7303c0;"><b>Start</b></button>
+  </div>
+  <div id="gameDiv" style="display: none;margin-top: -1%;">
+    <p style="color: aliceblue;margin-left: 4cm;">Guess a number between 1 and 100:</p>
+    <input type="text" id="guess" style="color: rgb(5, 96, 176);margin-left: 4cm;" />
+    <button onclick="checkGuess()" style="height: 1cm;width: 3cm;border-radius: 10%;background:  linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);border-color: #7bcbda;"><b>Guess<b></button>
+    <p id="message" style="color: aliceblue;margin-left: 4cm;"></p>
+    <p id="lives" style="color: aliceblue;margin-left: 4cm;"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
